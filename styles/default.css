@@ -84,7 +84,7 @@ nav a{
     font-size: 1rem;
 }
 .drop-down-ul a{
-    padding: 1rem; /* control the height of the dropdown  <a> from here */
+    padding: .5rem; /* control the height of the dropdown  <a> from here */
     color: #999;
 }
 
