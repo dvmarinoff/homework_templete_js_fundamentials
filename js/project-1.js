@@ -2,7 +2,7 @@
 (function () {
     'use strict';
     
-    var printResult;
+    var controlFunction;
     
     function solution() {
         var result;
@@ -13,7 +13,7 @@
     }
     
     // get input, call solution function, print result
-    printResult = function () {
+    controlFunction = function () {
         var input, result;
         
         // get input
@@ -30,6 +30,6 @@
     };
     
     // Event listeners:
-    document.getElementById('btn-1-submit').addEventListener('click', printResult);
+    document.getElementById('btn-1-submit').addEventListener('click', controlFunction);
     
 }());
